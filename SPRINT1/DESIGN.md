@@ -7,4 +7,10 @@ Por otro lado, también se usó capas de MaxPooling, las cuales se encargarán d
 Además, también se tuvo en cuenta las capas de 'normalización' (*batch normalization*) que se encargarán de 'centrar' y 'normalizar' cada mini-batch que llega a la red, añadiendo el hecho de que también introduce cierto ruido que actúa como regularización y así prevenir el *overfitting*.
 Una vez que se hayan realizado cada una de las operaciones anteriormente descritas, la red neuronal convolucional debe tener una arquitectura lineal al final, las cuales se encargarán de realizar, en este caso, de la clasificación (para las imágenes) y la regresión (para los *bounding boxes*).
 
-
+## ARQUITECTURA:
+**Capas de convolución**: 5 capas de convolución (a cada una se le aplica el *pading*)
+**Capas de MaxPooling**: Luego de cada capa de convolución, se le aplica la capa de MaxPooling --> 5 capas de MaxPooling.
+**Capas de BatchNormalization**: 4 capas de BatchNormalization
+**Capas lineales**:
+- 2 capas densas (lineales) para la clasificación.
+- 4 capas densas (lineales) para la regresión.
