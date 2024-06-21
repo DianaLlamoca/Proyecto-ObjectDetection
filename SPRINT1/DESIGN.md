@@ -9,7 +9,7 @@ Una vez que se hayan realizado cada una de las operaciones anteriormente descrit
 
 ## ARQUITECTURA:
 
-**-Capas de convolución**: 5 capas de convolución (a cada una se le aplica el *pading*)
+**-Capas de convolución**: 5 capas de convolución con kernel de 3 (a cada una se le aplica el *pading*)
 
 **-Capas de MaxPooling**: Luego de cada capa de convolución, se le aplica la capa de MaxPooling --> 5 capas de MaxPooling.
 
