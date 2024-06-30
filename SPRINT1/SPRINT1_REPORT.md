@@ -24,8 +24,8 @@ Para el sprint 1, se implementaron las siguientes librerías:
 
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
 
-• **Tarea 2: Recopilar y preprocesar un conjunto de imágenes de datos de imágenes**
-# Recopilación de imágenes
+• **Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes**
+**RECOPILACIÓN DE IMÁGENES**
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
 * Datos de *training*:
@@ -36,6 +36,7 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 * Datos de *testing*:
   Consta de 194 archivos (imágenes + xml) para evaluar el *performance* de la red neuronal luego de su entrenamiento. 
 
+**PREPROCESAMIENTO DEL CONJUNTO DE IMÁGENES**
 - Se implementaron dos funciones en el sprint 1 para la recopilación y el procesamiento de imágenes:
 
 -- La función "Imagenes" se encarga de leer la ruta de la imagen, el resize y la conversión a un arreglo de Numpy.
