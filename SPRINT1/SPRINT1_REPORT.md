@@ -18,3 +18,5 @@ Se implementaron las siguientes librerías:
 - Tensorflow & Keras: Creación de redes neuronales
 
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
+
+• *Recopilar y preprocesar un conjunto de imágenes de datos de imágenes*
