@@ -7,6 +7,7 @@
 • Implementar una red neuronal simple para la detección de objetos en un entorno local.
 
 ================
+
 • *Entorno de desarrollo*
 Se implementaron las siguientes librerías:
 - Numpy: Manejo de datos
