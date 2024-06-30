@@ -45,7 +45,7 @@ Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes
 
 **PIL**: Se usó esta librería para leer la ruta de la imagen y obtenerla en una matriz.
 
-\_Los pasos anteriores fueron realizados mediante dos funciones:\_
+Los pasos anteriores fueron realizados mediante dos funciones:
 **-** Se implementaron dos funciones en el sprint 1 para la recopilación y el procesamiento de imágenes:
 
 **--** La función "Imagenes" se encarga de leer la ruta de la imagen, el resize y la conversión a un arreglo de Numpy.
