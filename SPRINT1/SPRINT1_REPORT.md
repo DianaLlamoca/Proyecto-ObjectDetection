@@ -9,6 +9,7 @@
 ================
 
 • *Entorno de desarrollo*
+
 Se implementaron las siguientes librerías:
 - Numpy: Manejo de datos
 - xml: Leer los archivos xml
