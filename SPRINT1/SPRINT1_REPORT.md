@@ -105,9 +105,16 @@ Los pasos anteriores fueron realizados mediante dos funciones:
   - *Accuracy* para la rama del problema de clasificación.
   - *MeanSquaredError* para la rama del problema de regresión.
 
-  
-# Tiempo que tomó el entrenamiento
-Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
-Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
-Sin embargo, en el primer sprint no se usó GPU aún, por lo que el tiempo (entrenando al modelo con solo 10 épocas) fue de 1225.860 seg. (20 min.) aproximadamente:
-![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
+# 4) RESULTADOS:
+* **Funcionalidades desarrolladas: Lista de las funcionalidades que se desarrollaron durante el sprint**
+  - Funciones que se encargan de la lectura y procesamiento de las imágenes para el entrenamiento de la red.
+  - La arquitectura de la red neuronal.
+
+* **Pruebas realizadas**
+  - 1) Entrenamiento de la red sin GPU y con 10 épocas:
+       Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
+       Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones 
+       matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
+       Sin embargo, en el primer sprint no se usó GPU, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU", por lo que 
+       el tiempo (entrenando al modelo con solo 10 épocas) fue de 1225.860 seg. (20 min.) aproximadamente:
+       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
