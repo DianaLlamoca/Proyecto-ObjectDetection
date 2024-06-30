@@ -26,7 +26,8 @@ Para el sprint 1, se implementaron las siguientes librerías:
 
 ## • **Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes**
 
-**RECOPILACIÓN DE IMÁGENES**
+### **RECOPILACIÓN DE IMÁGENES**
+
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
 * Datos de *training*:
