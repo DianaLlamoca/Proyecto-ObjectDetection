@@ -85,7 +85,7 @@ Los pasos anteriores fueron realizados mediante dos funciones:
 
 ==========
 # 3) IMPLEMENTACIÓN:
-* Descripción del trabajo realizado:
+* **Descripción del trabajo realizado:**
   Hasta el momento, en el sprint 1 se recopiló el conjunto de datos de imágenes. Luego, se configuró las librerías necesarias, tanto para la lectura de las 
   imágenes, así como para obtener los datos relevantes de cada archivo xml (los bounding boxes de las imágenes y su clase correspondiente).
   Luego, se creó la arquitectura de la red neuronal. Para crearla, fue necesario no usar la clase "Sequential" de Keras, ya que esto implicaría crear una 
