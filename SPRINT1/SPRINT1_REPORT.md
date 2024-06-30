@@ -116,7 +116,7 @@ Los pasos anteriores fueron realizados mediante dos funciones:
        Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones 
        matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
        Sin embargo, en el primer sprint no se usó GPU, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU", por lo que 
-       el tiempo (entrenando al modelo con solo 10 épocas) fue de 1225.860 seg. (20 min.) aproximadamente:
+       el tiempo (entrenando al modelo con solo 10 épocas) fue de 744.1878 seg. (12 min.) aproximadamente:
        ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
