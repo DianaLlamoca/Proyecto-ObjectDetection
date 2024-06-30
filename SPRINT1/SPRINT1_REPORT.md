@@ -13,7 +13,7 @@ Los objetivos del sprint 1 son necesarios, pues es necesario configurar el entor
 # 2) PLANIFICACIÓN:
 # *Tareas planificadas: Lista de tareas planificadas para el sprint, incluyendo las tareas completadas y pendientes*
 
-• *Tarea 1: Configurar el entorno de desarrollo*
+• **Tarea 1: Configurar el entorno de desarrollo**
 
 Para el sprint 1, se implementaron las siguientes librerías:
 - Numpy: Manejo de datos
@@ -24,7 +24,7 @@ Para el sprint 1, se implementaron las siguientes librerías:
 
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
 
-• *Tarea 2: Recopilar y preprocesar un conjunto de imágenes de datos de imágenes*
+• **Tarea 2: Recopilar y preprocesar un conjunto de imágenes de datos de imágenes**
 
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
