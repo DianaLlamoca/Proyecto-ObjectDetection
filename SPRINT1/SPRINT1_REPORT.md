@@ -118,3 +118,27 @@ Los pasos anteriores fueron realizados mediante dos funciones:
        Sin embargo, en el primer sprint no se usó GPU, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU", por lo que 
        el tiempo (entrenando al modelo con solo 10 épocas) fue de 1225.860 seg. (20 min.) aproximadamente:
        ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
+
+# 5) ANÁLISIS Y EVALUACIÓN:
+# *Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint*
+- Tareas implementadas:
+  - Configuración del entorno
+  - Preprocesamiento de imágenes
+  - Creación de la arquitectura de la red neuronal
+
+# *Lecciones aprendidas: Reflexión sobre las lecciones aprendidas durante el sprint, incluyendo qué funcionó bien y qué se podría mejorar*
+**Lecciones aprendidas**:
+- El procesamiento de las imágenes juega un papel crucial para el entrenamiento de la red neuronal. Por lo que una mayor variedad de las mismas son fundamentales para que la red se entrene de mejor manera y generalice bien.
+- La arquitectura de la red neuronal, que incluye las capas de convolución y MaxPooling, pueden determinar qué tan bien la red puede captar características (extracción de características) relevantes después de cada filtro o convolución aplicado.
+- El uso de GPU es crucial para el entrenamiento de la red. Esta genera mayor rapidez durante el entrenamiento de la red neuronal; sin embargo, si solo se usa CPU, el proceso de entrenamiento tardará más, como fue el caso en este sprint 1.
+  
+**Lo que funcionó bien**:
+- Las funciones para el preprocesamiento de los datos cumplían el rol que se quizo lograr en un principio.
+- Si bien la red no tuvo una buena precisión, se logró crear una arquitectura de red neuronal para los dos problemas en la detección de objetos: clasificación 
+  para identificar el objeto que se encuentra en la imagen, así como el problema de regresión para que la red pueda predecir los valores de los *bounding boxes* 
+  para el objeto presente en la imagen.
+
+**Lo que se podría mejorar**:
+- Lo que se podría mejorar es el tiempo de entrenamiento que la red se demoró para el entrenamiento con solo 10 épocas. Lo anteriormente mencionado se puede 
+  mejorar haciendo uso de la GPU, la unidad de procesamiento ideal para manejar las operaciones matriciales y vectoriales, fundamentales en la etapa de *training* 
+  para ajustar los pesos de la red neuronal. *En el siguiente sprint se hará uso del GPU y se comparará el tiempo tomado*
