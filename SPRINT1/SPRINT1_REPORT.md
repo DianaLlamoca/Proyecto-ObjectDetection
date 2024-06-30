@@ -41,9 +41,9 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 ### **- PREPROCESAMIENTO DEL CONJUNTO DE IMÁGENES**
 Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes como matrices, para lo cual se usaron las librerías 'os' y 'PIL'.
 
-OS: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
+**OS**: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
 
-PIL: Se usó esta librería para leer la ruta de la imagen y obtenerla en una matriz.
+**PIL**: Se usó esta librería para leer la ruta de la imagen y obtenerla en una matriz.
 
 Los pasos anteriores fueron realizados mediante dos funciones:
 - Se implementaron dos funciones en el sprint 1 para la recopilación y el procesamiento de imágenes:
