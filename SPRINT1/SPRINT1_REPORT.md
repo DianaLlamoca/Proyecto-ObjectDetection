@@ -84,6 +84,18 @@ Los pasos anteriores fueron realizados mediante dos funciones:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
 
 ==========
+# 3) IMPLEMENTACIÓN:
+* Descripción del trabajo realizado:
+  Hasta el momento, en el sprint 1 se recopiló el conjunto de datos de imágenes. Luego, se configuró las librerías necesarias, tanto para la lectura de las 
+  imágenes, así como para obtener los datos relevantes de cada archivo xml (los bounding boxes de las imágenes y su clase correspondiente).
+  Luego, se creó la arquitectura de la red neuronal. Para crearla, fue necesario no usar la clase "Sequential" de Keras, ya que esto implicaría crear una 
+  arquitectura de red lineal, y el objetivo es crear una red que tenga dos outputs (o ramas de salida), una para clasificación y la otra para 
+  regresión, y así entrenar a la red para que realice cada una de esas tareas.
+  
+* Algoritmos y métodos:
+  
+
+  
 # Tiempo que tomó el entrenamiento
 Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
 Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
