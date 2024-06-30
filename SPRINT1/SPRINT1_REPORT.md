@@ -39,6 +39,11 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
   Consta de 194 archivos (imágenes + xml) para evaluar el *performance* de la red neuronal luego de su entrenamiento. 
 
 ### **- PREPROCESAMIENTO DEL CONJUNTO DE IMÁGENES**
+Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes como matrices, para lo cual se usaron las librerías 'os' y 'PIL'.
+OS: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
+PIL: Se usó esta librería para leer la ruta de la imagen y obtenerla en una matriz.
+
+Los pasos anteriores fueron realizados mediante dos funciones:
 - Se implementaron dos funciones en el sprint 1 para la recopilación y el procesamiento de imágenes:
 
 -- La función "Imagenes" se encarga de leer la ruta de la imagen, el resize y la conversión a un arreglo de Numpy.
@@ -48,6 +53,8 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/data1.PNG)
 
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/data2.PNG)
+
+========
 
 • *Implementar una red neuronal simple para la detección de objetos en un entorno local*
 
