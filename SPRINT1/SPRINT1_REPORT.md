@@ -1,4 +1,5 @@
 # Sprint 1: Configuración del entorno y adquisición de datos
+# 1) INTRODUCCIÓN:
 # Objetivos:
 • Configurar el entorno de desarrollo con las bibliotecas necesarias.
 
