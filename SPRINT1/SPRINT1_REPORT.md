@@ -88,12 +88,21 @@ Los pasos anteriores fueron realizados mediante dos funciones:
 * **Descripción del trabajo realizado:**
   Hasta el momento, en el sprint 1 se recopiló el conjunto de datos de imágenes. Luego, se configuró las librerías necesarias, tanto para la lectura de las 
   imágenes, así como para obtener los datos relevantes de cada archivo xml (los bounding boxes de las imágenes y su clase correspondiente).
-  Luego, se creó la arquitectura de la red neuronal. Para crearla, fue necesario no usar la clase "Sequential" de Keras, ya que esto implicaría crear una 
+  Posteriormente, se creó la arquitectura de la red neuronal. Para crearla, fue necesario no usar la clase "Sequential" de Keras, ya que esto implicaría crear una 
   arquitectura de red lineal, y el objetivo es crear una red que tenga dos outputs (o ramas de salida), una para clasificación y la otra para 
   regresión, y así entrenar a la red para que realice cada una de esas tareas.
   
-* Algoritmos y métodos:
+* **Algoritmos y métodos: Descripción de los algoritmos y métodos implementados.**
+  *Funciones de pérdida*:
+  - *SparseCategoricalCrossEntropy* para la rama que se encargará de la clasificación.
+  - *MeanSquaredError* para la rama que se encargará del problema de regresión, para la predicción de los *bounding boxes*
   
+  *Optimizador*:
+  - El optimizador que se usó fue Adam para el entrenamiento de la red neuronal.
+ 
+  *Métricas*:
+  - *Accuracy* para la rama del problema de clasificación.
+  - *MeanSquaredError* para la rama del problema de regresión.
 
   
 # Tiempo que tomó el entrenamiento
