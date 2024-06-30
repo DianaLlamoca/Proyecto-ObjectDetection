@@ -25,11 +25,14 @@ Para el sprint 1, se implementaron las siguientes librerías:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
 
 • *Tarea 2: Recopilar y preprocesar un conjunto de imágenes de datos de imágenes*
+
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
+
 * Datos de *training*:
   Consta de 1400 archivos. Cada imagen tiene su archivo 'xml' correspondiente, los cuales contienen la clase del objeto que está en la imagen, así como el 
   *bounding box*. Es decir, el archivo 'xml' es el archivo que contiene toda la información de la imagen ya etiquetada.
   Es decir, la data de training consta de 700 imágenes.
+  
 * Datos de *testing*:
   Consta de 194 archivos (imágenes + xml) para evaluar el *performance* de la red neuronal luego de su entrenamiento. 
 
