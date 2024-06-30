@@ -11,7 +11,7 @@ Los objetivos del sprint 1 son necesarios, pues es necesario configurar el entor
 
 ================
 # 2) PLANIFICACIÓN:
-## *Tareas planificadas: Lista de tareas planificadas para el sprint, incluyendo las tareas completadas y pendientes*
+# *Tareas planificadas: Lista de tareas planificadas para el sprint, incluyendo las tareas completadas y pendientes*
 
 • *Tarea 1: Configurar el entorno de desarrollo*
 
