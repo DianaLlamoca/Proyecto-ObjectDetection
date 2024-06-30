@@ -7,6 +7,8 @@
 
 • Implementar una red neuronal simple para la detección de objetos en un entorno local.
 
+Los objetivos del sprint 1 son necesarios, pues es necesario configurar el entorno de desarrollo con las bibliotecas necesarias para su posterior uso. Además, se va a tener que recopilar y preprocesar el conjunto de datos de imágenes. Finalmente, definir la arquitectura de la red neuronal para entrenarla con los datos preprocesados.
+
 ================
 
 • *Entorno de desarrollo*
