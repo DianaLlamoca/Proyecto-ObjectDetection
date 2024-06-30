@@ -93,6 +93,7 @@ Los pasos anteriores fueron realizados mediante dos funciones:
   regresión, y así entrenar a la red para que realice cada una de esas tareas.
   
 * **Algoritmos y métodos: Descripción de los algoritmos y métodos implementados.**
+  
   *Funciones de pérdida*:
   - *SparseCategoricalCrossEntropy* para la rama que se encargará de la clasificación.
   - *MeanSquaredError* para la rama que se encargará del problema de regresión, para la predicción de los *bounding boxes*
