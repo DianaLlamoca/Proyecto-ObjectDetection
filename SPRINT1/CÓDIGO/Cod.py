@@ -146,7 +146,7 @@ modelo.summary()
 #para cada una de las ramas. Se usará "Sparse Categorical Crossentropy" para la clasificación, y "Mean Squared Error"
 #para los bounding. Se definirán en un diccionario (tiene que coincidir el head de las últimas capas)
 func_perd={"cl_head":tensorflow.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-           "bb_head":tensorflow.keras.losses.MeanSquaredError}
+           "bb_head":tensorflow.keras.losses.MeanSquaredError()}
 
 #Se define el optimizador. En este caso, se usará "Adam"
 modelo.compile(loss=func_perd,optimizer="Adam",
