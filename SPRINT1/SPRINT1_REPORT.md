@@ -25,7 +25,7 @@ Para el sprint 1, se implementaron las siguientes librerías:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
 
 • **Tarea 2: Recopilar y preprocesar un conjunto de imágenes de datos de imágenes**
-
+# Recopilación de imágenes
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
 * Datos de *training*:
