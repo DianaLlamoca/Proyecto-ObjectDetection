@@ -17,4 +17,4 @@ Se implementaron las siguientes librerías:
 - PIL: Manipulación de imágenes
 - Tensorflow & Keras: Creación de redes neuronales
 
-![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/im%C3%A1genes.md)
+![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
