@@ -33,5 +33,12 @@ Se implementaron las siguientes librerías:
 
 • *Implementar una red neuronal simple para la detección de objetos en un entorno local*
 
-Red neuronal:
+-- Red neuronal:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
+
+==========
+# Tiempo que tomó el entrenamiento
+Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
+Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
+Sin embargo, en el primer sprint no se usó GPU aún, por lo que el tiempo (entrenando al modelo con solo 10 épocas) fue de 1225.860 seg. aproximadamente:
+![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
