@@ -111,7 +111,7 @@ Los pasos anteriores fueron realizados mediante dos funciones:
   - La arquitectura de la red neuronal.
 
 * **Pruebas realizadas**
-  - 1) Entrenamiento de la red sin GPU y con 10 épocas:
+  - **1)** Entrenamiento de la red sin GPU y con 10 épocas:
        Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
        Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones 
        matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
