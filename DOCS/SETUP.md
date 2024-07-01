@@ -1,3 +1,4 @@
+# DOCUMENTACIÓN: Incluir instrucciones para la instalación y ejecución del proyecto
 # INSTRUCCIONES PARA CONFIGURAR EL ENTORNO
 
 ## LIBRERÍAS UTILIZADAS:
@@ -11,3 +12,11 @@ Las librerías que se usaron fueron las siguientes:
 - **concurrent.futures**: Se usó "concurrent.futures" para crear un Pool de procesos, de tal forma que a cada uno se le asigne una tarea y estas sean ejecutadas en paralelo.
 
 ## Para configurar el entorno, se deben seguir los siguientes pasos:
+- 1) Crear el entorno virtual para instalar las librerías necesarias
+- 2) Dentro del entorno, instalar cada una de las bibliotecas  que requieran de instalación, puesto que algunas ya están implementadas por defecto en Python:
+     * pip install numpy
+     * pip install tensorflow
+     * pip install futures
+- 3) Luego, crear un archivo de extensión '.py' y ejecutar el código haciendo uso de "python3 *nombre_del_archivo.py*"
+ 
+     
