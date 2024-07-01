@@ -120,7 +120,26 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 Para evaluar los datos predichos por el modelo, creé el código para generar las imágenes, con sus bounding boxes y clase predichos:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cod_ev.PNG) 
 
-
+- **Prueba 1: Se entrenó al modelo con 10 épocas considerando GPU.**
+      *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+      * **Accuracy para el problema de clasificación**: 16.6 %
+      * **MSE para el problema de bounding boxes**: 1753.95
+      * **Resultados**
+        - Imagen de prueba 1 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_1.PNG)
+          
+        - Imagen de prueba 2 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_2.PNG)
+          
+        - Imagen de prueba 3 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_3.PNG)
+          
+        - Imagen de prueba 4 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_4.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
 ## Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint
