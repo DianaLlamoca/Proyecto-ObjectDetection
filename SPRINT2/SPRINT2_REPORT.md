@@ -14,7 +14,7 @@ De forma general, se aprovecharán las técnicas de paralelismo, tanto para el p
 
 # 2) PLANIFICACIÓN:
 # Tareas planificadas:
-* Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo
+## * Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo
   Para el sprint 2, se implementó la librería "concurrent.futures":
   
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cfu.PNG)
@@ -32,7 +32,7 @@ De forma general, se aprovecharán las técnicas de paralelismo, tanto para el p
     
   
   
-* Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal:
+## * Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal:
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG)
 
 ## 1) Sistema de procesamiento de imágenes distribuido utilizando concurrent.futures:
