@@ -190,11 +190,11 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
 
   - **Prueba 2: Se entrenó al modelo con 20 épocas sin considerar GPU.**
-      *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
-      * **Accuracy para el problema de clasificación**: 16.66666716337204 %
-      * **MSE para el problema de bounding boxes**: 1560.8096923828125
-      * **Resultados**
-        - Imagen de prueba 1 con resultados:
+  - Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+  - **Accuracy para el problema de clasificación**: 16.66666716337204 %
+  - **MSE para el problema de bounding boxes**: 1560.8096923828125
+  - **Resultados**
+     - Imagen de prueba 1 con resultados:
           
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_1.PNG)
           
