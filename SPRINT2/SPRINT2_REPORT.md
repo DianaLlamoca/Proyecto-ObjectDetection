@@ -52,5 +52,29 @@ Por ese motivo, se define la arquitectura de la red neuronal dentro de la declar
 • De la misma forma, la etapa de compilación, donde se especifican las funciones de pérdidas a usar, así como las métricas para evaluar la precisión del modelo, también debe de estar dentro del alcance de la estrategia. Se logra lo anterior, mediante la sentencia *with* en Python:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU4.PNG)
 
-
 Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas las variables del modelo a cada GPU. Luego, se usa "all-reduce" para combinar los gradientes de todos los GPU y aplica el valor combinado a todas las copias del modelo.
+
+## * Tarea 3: Cuantización post-entrenamiento de la red:
+• Debido a que el modelo ha sido entrenado, se aplicarán técnicas de cuantización, pero posterior al entrenamiento.
+  La cuantización, lo que va a hacer, es que el modelo va a ser reducido en tamaño, y así más apto para dispositivos que tienen menos memoria.
+  De esta forma, la velocidad de "inferencia" en la red neuronal puede también mejorar, pues dicha operación es costosa computacionalmente
+  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cuantizado_mod.PNG)
+
+
+# 3) IMPLEMENTACIÓN:
+• **Descripción del trabajo realizado:** Se implementó la distribución en el procesamiento de imágenes, por lo que se empleó técnicas de paraleismo, mediante la 
+librería "concurrent.futures". Además, se usó "*tensorflow.distribute.MirroredStrategy()*" de Keras para realizar la ejecución distribuida en varias unidades de procesamiento.
+
+• **Algoritmos y métodos: Descripción de los algoritmos y métodos implementados:** 
+ - "concurrent.futures" para la distribución en el procesamiento.
+ - Uso de GPU para acelerar el entrenamiento de la red neuronal
+
+• **Desafíos encontrados:**
+ - Al querer implementar la **cuantización de modelos** como técnica de optimización y luego evaluar el impacto de las optimizaciones en la precisión y el tiempo 
+   de procesamiento tuve dificultades en la "cuantización aware-training".
+   - **Cuantización aware-training**: Esta forma de cuantización, según la documentación de TensorFlow, suele ser mejor para la precisión del modelo. Por ello, se 
+     aplicar esta forma de cuantización para posteriormente calcular el performance:
+     • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at1.PNG)
+     • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at2.PNG)
+     • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at3.PNG)
+     • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at4.png)
