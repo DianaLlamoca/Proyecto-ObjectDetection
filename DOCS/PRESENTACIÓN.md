@@ -113,6 +113,14 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
   - **SPRINT 2**:
      - Tareas planificadas:
        - Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:
-          - Pool de procesos para la data de train y test
+          - Pool de procesos para la data de train y test:
+            - En las funciones encargadas para realizar el procesamiento de las imágenes (funciones "Imagenes" y "Data" del primer sprint") se aplicó el paralelismo para distribuir el procesamiento de imágenes a cada proceso.
+                - **Pool de procesos para la data de *train***: Se creó un Pool de procesos usando la librería "concurrent.futures", de tal forma que a cada proceso se le asigna una ruta para que la lea y se haga el procesamiento:
+    ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/p1.PNG)
+
+                - **Pool de procesos para la data de *test***: Se creó un Pool de procesos usando la librería "concurrent.futures", de tal forma que a cada proceso se le asigna una ruta para que la lea y se haga el procesamiento:
+    ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/p_.PNG)
+ 
+    
        - Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal
        - Tarea 3: Cuantización post-entrenamiento de la red
