@@ -167,15 +167,17 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
       *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
       * **Accuracy para el problema de clasificación**: 13.19444477558136 %
       * **MSE para el problema de bounding boxes**: 1816.4044189453125
-      * **Resultados:**
-    * Imagen de prueba 1 con resultados:
+      * Resultados:
+      * Imagen de prueba 1 con resultados:
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_1.PNG)
 
     * Imagen de prueba 2 con resultados:
-          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_2.PNG)
+  
+      *   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_2.PNG)
       
     * Imagen de prueba 3 con resultados:
-          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_3.PNG)
+      
+      *   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_3.PNG)
       
     * Imagen de prueba 4 con resultados:
-          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
+      *   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
