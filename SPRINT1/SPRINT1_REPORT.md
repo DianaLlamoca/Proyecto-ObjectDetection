@@ -156,6 +156,27 @@ Los pasos anteriores fueron realizados mediante dos funciones:
         - Imagen de prueba 4 con resultados:
           
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
+    
+    - **Prueba: Se entrenó al modelo con 20 épocas sin considerar GPU.**
+      *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+      * **Accuracy para el problema de clasificación**: 16.66666716337204 %
+      * **MSE para el problema de bounding boxes**: 1560.8096923828125
+      * **Resultados**
+        - Imagen de prueba 1 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_1.PNG)
+          
+        - Imagen de prueba 2 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_2.PNG)
+          
+        - Imagen de prueba 3 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_3.PNG)
+          
+        - Imagen de prueba 4 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_4.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
 # *Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint*
