@@ -17,6 +17,7 @@ El proyecto consiste en desarrollar un sistema distribuido de visión computacio
 
 • Optimizar la red neuronal para ejecución distribuida
 
+
 ## - RELEVANCIA:
 La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Estas aceleran y hacen más eficiente el entrenamiento de la red, así como el procesamiento de las imágenes al realizarse las tareas de forma paralela. Lo cual lleva a una reducción del tiempo empleado para una mejora incremental del desarrollo y entrenamiento de la red neuronal
 
@@ -28,6 +29,34 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
   - Sprint 1:
     - Tareas planificadas:
     - Tarea 1: Configurar el entorno de desarrollo
+    - Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes:
+       - Recopilación de imágenes
+       - Preprocesamiento del conjunto de imágenes
+    - Tarea 3: Implementar una red neuronal simple para la detección de objetos en un entorno local:
+       - Creación de la arquitectura de la red neuronal
+  - Sprint 2:
+     - Tareas planificadas:
+       - Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:
+          - Pool de procesos para la data de train y test
+       - Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal
+       - Tarea 3: Cuantización post-entrenamiento de la red
+       
+=======
+
+## Desarrollo del proyecto: Desglosa el desarrollo del proyecto por sprints, destacando los objetivos y logros de cada sprint.
+- Sprint 1:
+    - Tareas planificadas:
+    - Tarea 1: Configurar el entorno de desarrollo
+      Para el sprint 1, se implementaron las siguientes librerías:
+       - Numpy: Manejo de datos
+       - xml: Leer los archivos xml
+       - os: Obtener las rutas de los archivos
+       - PIL: Manipulación de imágenes
+       - Tensorflow & Keras: Creación de redes neuronales
+
+       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/lib.PNG)
+
+
     - Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes:
        - Recopilación de imágenes
        - Preprocesamiento del conjunto de imágenes
