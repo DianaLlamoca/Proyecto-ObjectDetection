@@ -39,7 +39,7 @@ Acá se ajustó la arquitectura de la red neuronal para mejorar el rendimiento e
 
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG)
 
-Se usó "*tf.distribute.Strategy*", el cual proporciona una abstracción para realizar la ejecución distribuida en varias unidades de procesamiento.
+Se usó "*tensorflow.distribute.MirroredStrategy()*", el cual proporciona una abstracción para realizar la ejecución distribuida en varias unidades de procesamiento.
 Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas las variables del modelo a cada GPU. Luego, se usa "all-reduce" para combinar los gradientes de todos los GPU y aplica el valor combinado a todas las copias del modelo.
 
 
