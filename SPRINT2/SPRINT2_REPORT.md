@@ -1,4 +1,19 @@
-# SPRINT 2
+# SRINT 2: ESCALABILIDAD Y PARALELIZACIÓN
+# 1) INTRODUCCIÓN:
+# Objetivos:
+• Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo.
+• Implementar una cola de tareas para gestionar el procesamiento de imágenes.
+• Optimizar la red neuronal para ejecución distribuida
+
+En el sprint 2 se intentará mejorar el tiempo de entrenamiento respecto al sprint 1 usando GPU. Así, se aprovechará dicho recurso para acelerar la etapa de training. Además, se usó "concurrent.futures" para leer las rutas de las imágenes y sus archivos xml correspondientes. De forma general, se aprovechará las técnicas de paralelismo, tanto para el procesamiento de las imágenes, como para el entrenamiento de la red neuronal.
+
+=========
+
+# 2) PLANIFICACIÓN:
+# Tareas planificadas:
+
+
+
 ## 1) Sistema de procesamiento de imágenes distribuido utilizando concurrent.futures:
 En el sprint 2, se implementó técnicas de paralelismo, usando un pool de procesos, haciendo uso de "concurrent.futures", con el objetivo de que cada proceso del pool se encargue de ejecutar la tarea de leer la imagen desde la ruta, obtener los datos más importantes de los archivos 'xml' para obtener los bounding boxes y la clase correspondiente, hasta el resize de cada imagen de la data:
 
