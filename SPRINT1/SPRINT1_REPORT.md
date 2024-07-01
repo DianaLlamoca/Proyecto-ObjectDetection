@@ -142,15 +142,19 @@ Los pasos anteriores fueron realizados mediante dos funciones:
       * **MSE para el problema de bounding boxes**: 1816.4044189453125
       * **Resultados**
         - Imagen de prueba 1 con resultados:
+          
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_1.PNG)
           
         - Imagen de prueba 2 con resultados:
+          
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_2.PNG)
           
         - Imagen de prueba 3 con resultados:
+          
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_3.PNG)
           
         - Imagen de prueba 4 con resultados:
+          
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
