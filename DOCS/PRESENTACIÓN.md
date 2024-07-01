@@ -199,3 +199,30 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
         - Imagen de prueba 4 con resultados:
           
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev2_4.PNG)
+
+=======
+
+# ANÁLISIS Y EVALUACIÓN: Discute las lecciones aprendidas, los desafíos enfrentados y cómo se superaron.
+  - **Lecciones aprendidas**:
+    - El procesamiento de las imágenes juega un papel crucial para el entrenamiento de la red neuronal. Por lo que una mayor variedad de las mismas son fundamentales para que la red se entrene de mejor manera y generalice bien.
+    - La arquitectura de la red neuronal, que incluye las capas de convolución y MaxPooling, pueden determinar qué tan bien la red puede captar características (extracción de características) relevantes después de cada filtro o convolución aplicado.
+    - El uso de GPU es crucial para el entrenamiento de la red. Esta genera mayor rapidez durante el entrenamiento de la red neuronal; sin embargo, si solo se usa CPU, el proceso de entrenamiento tardará más, como fue el caso en este sprint 1.
+    - Se pudo usar el paralelismo a nivel de datos, aplicando la misma instrucción (los pasos para el procesamiento de las imágenes) a un conjunto de datos, 
+   repartiéndolo a cada proceso.
+    - El uso de GPU puede acelerar exponencialmente si se compara a entrenar la red con una CPU.
+    -La cuantización de modelos; en este caso, cuantización post-training, puede optimizar el uso de la memoria.
+
+  
+**Los desafíos enfrentados**:
+    - La red no tuvo una buena precisión para la tarea de clasificación. En lo que respecta al tiempo de entrenamiento que la red se demoró, se pudo 
+  mejorar haciendo uso de la GPU, la unidad de procesamiento ideal para manejar las operaciones matriciales y vectoriales, fundamentales en la etapa de *training* 
+  para ajustar los pesos de la red neuronal. *En el siguiente sprint se hará uso del GPU y se comparará el tiempo tomado*.
+    - Respecto a la cola de tareas, tuve dificultades para implementarla, pero considero que al implementar la cola de tareas y 
+  configurarla para distribuir las cargas de trabajo entre múltiples trabajadores, haría mucho más eficiente el proceso.
+  
+    - En la cuantización aware-training también pudo haber impactado en las optimizaciones de la precisión y el tiempo de procesamiento. Sin embargo, tuve algunos 
+   errores que no me permitieron aplicar dicha cuantización.
+
+  
+
+
