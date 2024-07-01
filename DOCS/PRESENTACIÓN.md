@@ -69,7 +69,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
          - **OS**: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
          - **PIL**: Se usó esta librería para leer la ruta de la imagen y obtenerla en una matriz.
        
-         - Los pasos anteriores fueron realizados mediante dos funciones:
+         - Los pasos anteriores fueron realizados de la siguiente manera:
            - **-** Se implementaron dos funciones en el sprint 1 para la recopilación y el procesamiento de imágenes:
 
            - **--** La función "Imagenes" se encarga de leer la ruta de la imagen, el resize y la conversión a un arreglo de Numpy.
