@@ -234,4 +234,9 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
   - El tiempo de entrenamiento usando GPU fue mejorado.
   - El espacio que ocupa en memoria el modelo se logró, al aplicar la cuantización post-training al modelo.
 
-
+- **Mejoras**:
+ - Lo que se podría mejorar es implementar la cola de tareas. Tuve dificultades para implementarlo, pero considero que al implementar la cola de tareas y 
+  configurarla para distribuir las cargas de trabajo entre múltiples trabajadores, haría mucho más eficiente el proceso.
+  
+ - La cuantización aware-training también pudo haber impactado en las optimizaciones de la precisión y el tiempo de procesamiento. Sin embargo, tuve algunos 
+   errores que no me permitieron aplicar dicha cuantización.
