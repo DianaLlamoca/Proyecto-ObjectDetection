@@ -118,7 +118,15 @@ Los pasos anteriores fueron realizados mediante dos funciones:
        matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
        Sin embargo, en el primer sprint no se usó GPU, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU", por lo que 
        el tiempo (entrenando al modelo con solo 10 épocas) fue de 744.1878 seg. (12 min.) aproximadamente:
-       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/tiempo.PNG)
+       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/time.PNG)
+
+    - **Prueba 1: 10 épocas sin GPU**:
+      - Tiempo de entrenamiento: 12 minutos para 10 épocas
+      - Resultados al evaluar el modelo en la data de train con 10 épocas sin GPU (12 minutos para 10 épocas):
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/10epc.PNG)
+
+    - Resultados de evaluar el modelo en la data de train con 20 épocas sin GPU ():
+    ![]()
 
 # 5) ANÁLISIS Y EVALUACIÓN:
 # *Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint*
