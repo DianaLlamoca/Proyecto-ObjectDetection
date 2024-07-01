@@ -163,6 +163,7 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
 
 
 ## ANÁLISIS DE RESULTADOS Y MÉTRICAS:
+### PRUEBAS:
 - **Prueba -> Se entrenó al modelo con 10 épocas sin considerar GPU:**
 - Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
 - **Accuracy para el problema de clasificación**: 13.19444477558136 %
