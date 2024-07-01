@@ -31,6 +31,7 @@ Las librerías que se usaron fueron las siguientes:
  
 # INFORME
 - **Informe detallado del proceso de desarrollo**:
+  
   a) **OBTENCIÓN DE LOS DATOS: RECOPILACIÓN DE IMÁGENES**
 
 El conjunto de imágenes fue dividido en datos de *training* y *testing*:
@@ -44,6 +45,7 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
   Consta de 194 archivos (imágenes + xml) para evaluar el *performance* de la red neuronal luego de su entrenamiento. 
 
   b) **PREPROCESAMIENTO DEL CONJUNTO DE IMÁGENES**
+
 Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes como matrices, para lo cual se usaron las librerías 'os' y 'PIL'.
 
 **OS**: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
