@@ -96,7 +96,10 @@ librería "concurrent.futures". Además, se usó "*tensorflow.distribute.Mirrore
 Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente. Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente. En este sprint 2 se hizo uso del GPU.
 * **1)** Entrenamiento de la red con GPU y con 10 épocas:
 * Tiempo de entrenamiento: 41 segundos para 10 épocas
-* 
+  
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/time_gpu1.PNG)
+   El tiempo usando GPU es mucho menor comparado a usar solo CPU. En el primer sprint, el tiempo fue de 12 minutos para 10 épocas. En cambio, con GPU, solo tomó 
+   40 segundos, aproximadamente.
+  
 * Resultados al evaluar el modelo en la data de test con 10 épocas y con GPU:
  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t1.PNG)
