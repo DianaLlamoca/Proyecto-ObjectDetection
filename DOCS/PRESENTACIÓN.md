@@ -128,9 +128,8 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
     
        - Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal
          - Acá se ajustó la arquitectura de la red neuronal para mejorar el rendimiento en un entorno distribuido, teniendo en cuenta el número de GPU's disponibles.
-       
          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG)
-       
+
          - Se usó "*tensorflow.distribute.MirroredStrategy()*", el cual proporciona una abstracción para realizar la ejecución distribuida en varias unidades de procesamiento. Esta estrategia se utiliza normalmente para entrenar en una máquina con varias GPU.
        
         ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU2.PNG)
