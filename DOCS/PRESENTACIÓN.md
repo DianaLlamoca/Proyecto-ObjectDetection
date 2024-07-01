@@ -23,3 +23,19 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 =======
 
 # Metodología: Explica brevemente la metodología utilizada, incluyendo el enfoque ágil y la estructura de los sprints.
+- Metodología ágil: La metodología ágil permitió el desarrollo incremental en cada sprint, lo cual impactó en la reducción del tiempo de entrenamiento de la red neuronal al implementar técnicas de paralelismo.
+- Estructura de los sprints:
+  - Sprint 1:
+    - Tareas planificadas:
+    - Tarea 1: Configurar el entorno de desarrollo
+    - Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes:
+       - Recopilación de imágenes
+       - Preprocesamiento del conjunto de imágenes
+    - Tarea 3: Implementar una red neuronal simple para la detección de objetos en un entorno local:
+       - Creación de la arquitectura de la red neuronal
+  - Sprint 2:
+     - Tareas planificadas:
+       - Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:
+          - Pool de procesos para la data de train y test
+       - Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal
+       - Tarea 3: Cuantización post-entrenamiento de la red
