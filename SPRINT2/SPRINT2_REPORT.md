@@ -85,3 +85,17 @@ librería "concurrent.futures". Además, se usó "*tensorflow.distribute.Mirrore
      Debido a este error, intenté colocar dicha capa que generaba el error dentro de "quantize_scope"
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t5.png)
    Traté de solucionarlo, pero no pude encontrar la solución. Por ese motivo, no pude lograr comparar el performance del modelo al aplicarle la cuantización.
+
+# 4) RESULTADOS:
+• **Funcionalidades desarrolladas: Lista de las funcionalidades que se desarrollaron durante el sprint**
+* Implementar la distribución del procesamiento utilizando técnicas de paralelismo.
+* Uso de GPU para el entrenamiento.
+* Cuantización post-entrenamiento para usar menos espacio en memoria de lo que ocupa el modelo.
+
+• **Pruebas realizadas**
+Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente. Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente. En este sprint 2 se hizo uso del GPU.
+* **1)** Entrenamiento de la red con GPU y con 10 épocas:
+* Tiempo de entrenamiento: 41 segundos para 10 épocas
+  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/time_gpu1.PNG)
+* Resultados al evaluar el modelo en la data de test con 10 épocas y con GPU:
+ ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t1.PNG)
