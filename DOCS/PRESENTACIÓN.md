@@ -91,6 +91,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 
     - Tarea 3: Implementar una red neuronal simple para la detección de objetos en un entorno local:
        - Creación de la arquitectura de la red neuronal:
+         
          - **Arquitectura de la red neuronal:**
            **-Capas de convolución:** 5 capas de convolución con un kernel de 3. A cada capa se le aplica el padding, de tal forma que cuando se apliquen cada uno de los filtros a las imágenes, la matriz resultante no se reduzca en forma, es decir, tenga el mismo shape que la matriz de entrada
 
