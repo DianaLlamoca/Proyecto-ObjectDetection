@@ -34,7 +34,7 @@ Las librerías que se usaron fueron las siguientes:
   
   a) **OBTENCIÓN DE LOS DATOS: RECOPILACIÓN DE IMÁGENES**
 
-El conjunto de imágenes fue dividido en datos de *training* y *testing*:
+  El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
 * Datos de *training*:
   Consta de 1400 archivos. Cada imagen tiene su archivo 'xml' correspondiente, los cuales contienen la clase del objeto que está en la imagen, así como el 
@@ -46,7 +46,7 @@ El conjunto de imágenes fue dividido en datos de *training* y *testing*:
 
   b) **PREPROCESAMIENTO DEL CONJUNTO DE IMÁGENES**
 
-Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes como matrices, para lo cual se usaron las librerías 'os' y 'PIL'.
+  Para el preprocesamiento de imágenes, primero fue necesario tener las imágenes como matrices, para lo cual se usaron las librerías 'os' y 'PIL'.
 
 **OS**: Debido a que las imágenes estaban contenidas en un directorio, se usó esta librería para obtener las rutas, tanto de las imágenes como de los archivos xml.
 
