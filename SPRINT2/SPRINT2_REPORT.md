@@ -16,6 +16,7 @@ De forma general, se aprovecharán las técnicas de paralelismo, tanto para el p
 # Tareas planificadas:
 * Tarea 1: Distribuir el procesamiento deimágenes utilizando técnicas de paralelismo
   Para el sprint 2, se implementó la librería "concurrent.futures":
+  
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cfu.PNG)
 
 
