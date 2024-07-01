@@ -117,45 +117,8 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 
 • **Demostración de funcionalidades**
 Para evaluar los datos predichos por el modelo, agregué este código para generar las imágenes, con sus bounding boxes y clase predichos:
-`#Se realiza la predicción con algunos datos
-ejemplos=[32,42,29,5]
-ejemplos_a_predecir=[]
+![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cod_ev.PNG)
 
-#Se colocan las imágenes a predecir
-for ejm in ejemplos:
-  img=x_test[ejm]
-  ejemplos_a_predecir.append(img)
-
-#Se realiza la conversión a un arreglo de Numpy
-ejemplos_a_predecir=np.array(ejemplos_a_predecir)
-
-#Se generan las predicciones para las imágenes
-predicciones = modelo.predict(ejemplos_a_predecir)
-
-
-#Se generan las gráficas para algunas imágenes y comprobar los valores predichos por el modelo
-import matplotlib.pyplot as plt
-import cv2
-for i in range (len(ejemplos)):
-  #Se almacenan las coordenadas de los bounding boxes
-  xmin, ymin, xmax, ymax=predicciones[1][i][0],predicciones[1][i][1],predicciones[1][i][2],predicciones[1][i][3]
-  print(int(xmin),int(ymin),int(xmax),int(ymax))
-  
-  #Se almacena la clase correspondiente
-  clases = np.argmax(predicciones[0], axis = 1)
-
-  #Se genera la gráfica con su bounding box y clase para cada imagen
-  imagen=ejemplos[i]
-  img=x_test[imagen]
-  img=cv2.rectangle(img,(int(xmin),int(ymin)),(int(xmax),int(ymax)),(0,255,0),2)
-  print("Clase predicha:",clases[i])
-  
-
-  plt.imshow(img)
-  plt.show()
-  
-
-print("Diccionario:",etiquetas)`
 
 
 # 5) ANÁLISIS Y EVALUACIÓN:
