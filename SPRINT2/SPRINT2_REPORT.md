@@ -115,6 +115,8 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 * Resultados al evaluar el modelo en la data de test con 20 épocas y con GPU:
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t2ev.PNG)
 
+• **Demostración de funcionalidades**
+
 # 5) ANÁLISIS Y EVALUACIÓN:
 ## Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint
 • Tareas implementadas:
