@@ -17,6 +17,9 @@ El proyecto consiste en desarrollar un sistema distribuido de visión computacio
 
 • Optimizar la red neuronal para ejecución distribuida
 
+## - RELEVANCIA:
+La relevancia radica en el uso de técnicas de paralelismo empleadas. Estas aceleran y hacen más eficiente el entrenamiento de la red, así como el procesamiento de las imágenes al realizarse las tareas de forma paralela. 
+
 =======
 
 # Metodología: Explica brevemente la metodología utilizada, incluyendo el enfoque ágil y la estructura de los sprints.
