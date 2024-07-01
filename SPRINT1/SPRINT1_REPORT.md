@@ -111,24 +111,24 @@ Los pasos anteriores fueron realizados mediante dos funciones:
   - La arquitectura de la red neuronal.
 
 * **Pruebas realizadas**
+  Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
+  Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones 
+  matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
+  Sin embargo, **en el primer sprint no se usó GPU**, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU".
+  
   - **1)** Entrenamiento de la red sin GPU y con 10 épocas:
-    
-       Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar múltiples operaciones simultáneamente.
-       Las GPU tienen miles de núcleos más pequeños y eficientes diseñados para tareas paralelas. Esta arquitectura permite a las GPU manejar las operaciones 
-       matriciales y vectoriales que son fundamentales para el entrenamiento de redes neuronales de manera mucho más eficiente.
-       Sin embargo, en el primer sprint no se usó GPU, puesto que ello se realizará en el siguiente sprint, donde se indica el "uso eficiente de GPU", por lo que 
-       el tiempo (entrenando al modelo con solo 10 épocas) fue de 744.1878 seg. (12 min.) aproximadamente:
-       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/time.PNG)
-
     - **Prueba 1: 10 épocas sin GPU**:
       - Tiempo de entrenamiento: 12 minutos para 10 épocas
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/time.PNG)
       - Resultados al evaluar el modelo en la data de test con 10 épocas sin GPU:
       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/10epctest.PNG)
       
-      
-
+  - **2)** Entrenamiento de la red sin GPU y con 20 épocas:
+    - **Prueba 2: 20 épocas sin GPU**:
+      - Tiempo de entrenamiento: 24 minutos para 20 épocas
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/20epc.PNG)
     - Resultados de evaluar el modelo en la data de train con 20 épocas sin GPU ():
-    ![]()
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/20epceval.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
 # *Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint*
