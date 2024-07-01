@@ -221,7 +221,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
           
       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_4.PNG)
 
-  - **Prueba 2: Se entrenó al modelo con 20 épocas considerando GPU.**
+  - **Prueba 4: Se entrenó al modelo con 20 épocas considerando GPU.**
   *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
   * **Accuracy para el problema de clasificación**: 16.6 %
   * **MSE para el problema de bounding boxes**: 1588.02
