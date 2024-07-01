@@ -222,6 +222,16 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
     - En la cuantización aware-training también pudo haber impactado en las optimizaciones de la precisión y el tiempo de procesamiento. Sin embargo, tuve algunos 
    errores que no me permitieron aplicar dicha cuantización.
 
-  
+=======
+
+# CONCLUSIÓN Y FUTURO TRABAJO: Concluye con un resumen de los logros y posibles mejoras o expansiones futuras del proyecto
+- **Logros**:
+  - Las funciones para el preprocesamiento de los datos cumplían el rol que se quizo lograr en un principio.
+  - Si bien la red no tuvo una buena precisión, se logró crear una arquitectura de red neuronal para los dos problemas en la detección de objetos: clasificación 
+  para identificar el objeto que se encuentra en la imagen, así como el problema de regresión para que la red pueda predecir los valores de los *bounding boxes* 
+  para el objeto presente en la imagen.
+  - Se pudo asignar una tarea a cada proceso, funcionando así el paralelismo a nivel de datos.
+  - El tiempo de entrenamiento usando GPU fue mejorado.
+  - El espacio que ocupa en memoria el modelo se logró, al aplicar la cuantización post-training al modelo.
 
 
