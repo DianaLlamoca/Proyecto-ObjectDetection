@@ -37,7 +37,7 @@ De forma general, se aprovecharán las técnicas de paralelismo, tanto para el p
 ## * Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal:
 Acá se ajustó la arquitectura de la red neuronal para mejorar el rendimiento en un entorno distribuido, teniendo en cuenta el número de GPU's disponibles.
 
-![](![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG))
+![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG)
 
 Se usó "*tf.distribute.Strategy*", el cual proporciona una abstracción para realizar la ejecución distribuida en varias unidades de procesamiento.
 Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas las variables del modelo a cada GPU. Luego, se usa "all-reduce" para combinar los gradientes de todos los GPU y aplica el valor combinado a todas las copias del modelo.
