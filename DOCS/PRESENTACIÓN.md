@@ -142,10 +142,11 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
        
       
        - Tarea 3: Cuantización post-entrenamiento de la red
-        Debido a que el modelo ha sido entrenado, se aplicarán técnicas de cuantización, pero posterior al entrenamiento.
-        La cuantización, lo que va a hacer, es que el modelo va a ser reducido en tamaño, y así más apto para dispositivos que tienen menos memoria.
-        De esta forma, la velocidad de "inferencia" en la red neuronal puede también mejorar, pues dicha operación es costosa computacionalmente
-        ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cuantizado_mod.PNG)
+
+         Debido a que el modelo ha sido entrenado, se aplicarán técnicas de cuantización, pero posterior al entrenamiento.
+         La cuantización, lo que va a hacer, es que el modelo va a ser reducido en tamaño, y así más apto para dispositivos que tienen menos memoria.
+         De esta forma, la velocidad de "inferencia" en la red neuronal puede también mejorar, pues dicha operación es costosa computacionalmente
+         ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cuantizado_mod.PNG)
  
-       El tamaño del modelo cuantizado se redujo significativamente. El cuantizado que se usó, lo que hará es transformar todos los pesos de la red en números enteros. 
-       De esta manera, se usará menos espacio en memoria, lo cual puede impactar en el tiempo de procesamiento, y así hacerlo más eficiente. Sin embargo, puede afectar la precisión del modelo, al haber una variación en los pesos. 
+        El tamaño del modelo cuantizado se redujo significativamente. El cuantizado que se usó, lo que hará es transformar todos los pesos de la red en números enteros. 
+        De esta manera, se usará menos espacio en memoria, lo cual puede impactar en el tiempo de procesamiento, y así hacerlo más eficiente. Sin embargo, puede afectar la precisión del modelo, al haber una variación en los pesos. 
