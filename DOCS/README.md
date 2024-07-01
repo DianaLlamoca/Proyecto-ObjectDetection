@@ -160,3 +160,26 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
      Debido a este error, intenté colocar dicha capa que generaba el error dentro de "quantize_scope"
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t5.png)
    Traté de solucionarlo, pero no pude encontrar la solución. Por ese motivo, no pude lograr comparar el performance del modelo al aplicarle la cuantización.
+
+
+# ANÁLISIS DE RESULTADOS Y MÉTRICAS:
+- **Prueba: Se entrenó al modelo con 10 épocas sin considerar GPU.**
+      *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+      * **Accuracy para el problema de clasificación**: 13.19444477558136 %
+      * **MSE para el problema de bounding boxes**: 1816.4044189453125
+      * **Resultados**
+        - Imagen de prueba 1 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_1.PNG)
+          
+        - Imagen de prueba 2 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_2.PNG)
+          
+        - Imagen de prueba 3 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_3.PNG)
+          
+        - Imagen de prueba 4 con resultados:
+          
+          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_4.PNG)
