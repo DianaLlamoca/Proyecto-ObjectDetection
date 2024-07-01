@@ -112,7 +112,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 
   - **SPRINT 2**:
      - Tareas planificadas:
-       - Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:
+       - **Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:**
           - Pool de procesos para la data de train y test:
             
             En las funciones encargadas a realizar el procesamiento de las imágenes (funciones "Imagenes" y "Data" del primer sprint") se aplicó el paralelismo para distribuir el procesamiento de imágenes a cada proceso:
@@ -126,7 +126,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
     ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/p_.PNG)
  
     
-       - Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal
+       - **Tarea 2: Uso de GPU para mejora del tiempo en el entrenamiento de la red neuronal**
          - Acá se ajustó la arquitectura de la red neuronal para mejorar el rendimiento en un entorno distribuido, teniendo en cuenta el número de GPU's disponibles.
          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU1.PNG)
 
@@ -141,7 +141,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
          ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/GPU4.PNG)
        
       
-       - Tarea 3: Cuantización post-entrenamiento de la red
+       - **Tarea 3: Cuantización post-entrenamiento de la red**
 
          Debido a que el modelo ha sido entrenado, se aplicarán técnicas de cuantización, pero posterior al entrenamiento.
          
