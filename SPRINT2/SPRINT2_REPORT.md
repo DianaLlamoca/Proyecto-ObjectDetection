@@ -124,6 +124,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 
 ## Lecciones aprendidas: Reflexión sobre las lecciones aprendidas durante el sprint, incluyendo qué funcionó bien y qué se podría mejorar
 **Lecciones aprendidas**
+
 • Se pudo usar el paralelismo a nivel de datos, aplicando la misma instrucción (los pasos para el procesamiento de las imágenes) a un conjunto de datos, 
    repartiéndolo a cada proceso.
    
@@ -132,6 +133,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 • La cuantización de modelos; en este caso, cuantización post-training, puede optimizar el uso de la memoria.
 
 **Lo que funcionó bien:**
+
 • Se pudo asignar una tarea a cada proceso, funcionando así el paralelismo a nivel de datos.
 
 • El tiempo de entrenamiento usando GPU fue mejorado.
@@ -139,6 +141,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 • El espacio que ocupa en memoria el modelo se logró, al aplicar la cuantización post-training al modelo.
 
 **Lo que se podría mejorar:**
+
 • Lo que se podría mejorar es implementar la cola de tareas. Tuve dificultades para implementarlo, pero considero que al implementar la cola de tareas y 
   configurarla para distribuir las cargas de trabajo entre múltiples trabajadores, haría mucho más eficiente el proceso.
   
