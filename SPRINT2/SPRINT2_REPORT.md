@@ -81,4 +81,5 @@ librería "concurrent.futures". Además, se usó "*tensorflow.distribute.Mirrore
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at1.PNG)
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at2.PNG)
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at3.PNG)
+     Debido a este error, intenté colocar dicha capa que generaba el error dentro de "quantize_scope"
      •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at4.png)
