@@ -103,7 +103,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
    47 segundos, aproximadamente.
   
 * Resultados al evaluar el modelo en la data de test con 10 épocas y con GPU:
- ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_time1.PNG)
+ ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_ev1.PNG)
 
 * **2)** Entrenamiento de la red con GPU y con 20 épocas:
 * Tiempo de entrenamiento: 77 segundos (1 minuto con 17 segundos) para 20 épocas
