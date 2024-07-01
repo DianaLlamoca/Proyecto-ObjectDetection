@@ -122,8 +122,10 @@ Los pasos anteriores fueron realizados mediante dos funciones:
 
     - **Prueba 1: 10 épocas sin GPU**:
       - Tiempo de entrenamiento: 12 minutos para 10 épocas
-      - Resultados al evaluar el modelo en la data de train con 10 épocas sin GPU (12 minutos para 10 épocas):
-      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/10epc.PNG)
+      - Resultados al evaluar el modelo en la data de test con 10 épocas sin GPU:
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/10epctest.PNG)
+      
+      
 
     - Resultados de evaluar el modelo en la data de train con 20 épocas sin GPU ():
     ![]()
