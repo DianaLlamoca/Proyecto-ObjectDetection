@@ -59,7 +59,10 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
   La cuantización, lo que va a hacer, es que el modelo va a ser reducido en tamaño, y así más apto para dispositivos que tienen menos memoria.
   De esta forma, la velocidad de "inferencia" en la red neuronal puede también mejorar, pues dicha operación es costosa computacionalmente
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cuantizado_mod.PNG)
-
+ 
+  El tamaño del modelo cuantizado se redujo significativamente. El cuantizado que se usó, lo que hará es transformar todos los pesos de la red en números enteros. 
+  De esta manera, se usará menos espacio en memoria, lo cual puede impactar en el tiempo de procesamiento, y así hacerlo más eficiente. Sin embargo, puede afectar 
+  la precisión del modelo, al haber una variación en los pesos. 
 
 # 3) IMPLEMENTACIÓN:
 • **Descripción del trabajo realizado:** Se implementó la distribución en el procesamiento de imágenes, por lo que se empleó técnicas de paraleismo, mediante la 
