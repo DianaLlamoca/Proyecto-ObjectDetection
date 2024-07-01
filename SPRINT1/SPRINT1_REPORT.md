@@ -153,3 +153,5 @@ Los pasos anteriores fueron realizados mediante dos funciones:
 - Lo que se podría mejorar es el tiempo de entrenamiento que la red se demoró para el entrenamiento con solo 10 épocas. Lo anteriormente mencionado se puede 
   mejorar haciendo uso de la GPU, la unidad de procesamiento ideal para manejar las operaciones matriciales y vectoriales, fundamentales en la etapa de *training* 
   para ajustar los pesos de la red neuronal. *En el siguiente sprint se hará uso del GPU y se comparará el tiempo tomado*
+
+  
