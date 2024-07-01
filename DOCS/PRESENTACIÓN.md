@@ -212,8 +212,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
     - El uso de GPU puede acelerar exponencialmente si se compara a entrenar la red con una CPU.
     -La cuantización de modelos; en este caso, cuantización post-training, puede optimizar el uso de la memoria.
 
-  
-**Los desafíos enfrentados**:
+  - **Los desafíos enfrentados**:
     - La red no tuvo una buena precisión para la tarea de clasificación. En lo que respecta al tiempo de entrenamiento que la red se demoró, se pudo 
   mejorar haciendo uso de la GPU, la unidad de procesamiento ideal para manejar las operaciones matriciales y vectoriales, fundamentales en la etapa de *training* 
   para ajustar los pesos de la red neuronal. *En el siguiente sprint se hará uso del GPU y se comparará el tiempo tomado*.
