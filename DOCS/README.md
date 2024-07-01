@@ -92,7 +92,7 @@ Las librerías que se usaron fueron las siguientes:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
 
 # LAS DECISIONES TOMADAS
-Las decisiones, para implementar algunas técnicas de paralelismo y hacer más eficiente fueron las siguientes:
+Las decisiones, para implementar algunas técnicas de paralelismo y hacer más eficiente el entrenamiento de la red neuronal, fueron las siguientes:
 ## * Decisión 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo
   Para el sprint 2, se implementó la librería "concurrent.futures": Se implementaron técnicas de paralelismo, usando un pool de procesos, haciendo uso de 
   "concurrent.futures", con el objetivo de que cada proceso del pool se encargue de ejecutar la tarea de leer la imagen desde la ruta, obtener los datos más 
