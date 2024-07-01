@@ -98,6 +98,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 * Tiempo de entrenamiento: 41 segundos para 10 épocas
   
   ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/time_gpu1.PNG)
+
    El tiempo usando GPU es mucho menor comparado a usar solo CPU. En el primer sprint, el tiempo fue de 12 minutos para 10 épocas. En cambio, con GPU, solo tomó 
    40 segundos, aproximadamente.
   
