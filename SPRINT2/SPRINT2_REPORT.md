@@ -154,3 +154,4 @@ Para evaluar los datos predichos por el modelo, creé el código para generar la
   
 • La cuantización aware-training también pudo haber impactado en las optimizaciones de la precisión y el tiempo de procesamiento. Sin embargo, tuve algunos 
    errores que no me permitieron aplicar dicha cuantización.
+   
