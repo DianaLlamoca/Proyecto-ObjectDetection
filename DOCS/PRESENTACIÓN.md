@@ -159,7 +159,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 **PRUEBAS:**
 
 - **Prueba 1: Se entrenó al modelo con 10 épocas sin considerar GPU.**
- -  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+ - Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
  - **Accuracy para el problema de clasificación**: 13.19444477558136 %
  - **MSE para el problema de bounding boxes**: 1816.4044189453125
  - **Resultados**
