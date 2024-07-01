@@ -44,7 +44,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 =======
 
 ## Desarrollo del proyecto: Desglosa el desarrollo del proyecto por sprints, destacando los objetivos y logros de cada sprint.
-- Sprint 1:
+- **SPRINT 1:**
     - Tareas planificadas:
     - Tarea 1: Configurar el entorno de desarrollo
       Para el sprint 1, se implementaron las siguientes librerías:
@@ -110,7 +110,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
            ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
 
 
-  - Sprint 2:
+  - **SPRINT 2**:
      - Tareas planificadas:
        - Tarea 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo:
           - Pool de procesos para la data de train y test
