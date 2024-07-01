@@ -153,5 +153,6 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
          El tamaño del modelo cuantizado se redujo significativamente. El cuantizado que se usó, lo que hará es transformar todos los pesos de la red en números enteros. 
          De esta manera, se usará menos espacio en memoria, lo cual puede impactar en el tiempo de procesamiento, y así hacerlo más eficiente. Sin embargo, puede afectar la precisión del modelo, al haber una variación en los pesos. 
 
+=======
 
 # RESULTADOS Y DEMOSTRACIÓN: Presenta los resultados más importantes y realiza una demostración en vivo de las funcionalidades clave del proyecto
