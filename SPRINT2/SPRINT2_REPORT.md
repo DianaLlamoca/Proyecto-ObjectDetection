@@ -78,8 +78,9 @@ librería "concurrent.futures". Además, se usó "*tensorflow.distribute.Mirrore
    - **Cuantización aware-training**: Esta forma de cuantización, según la documentación de TensorFlow, suele ser mejor para la precisión del modelo. Por ello, 
      intenté aplicar esta forma de cuantización para posteriormente calcular el performance:
      
-     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at1.PNG)
-     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at2.PNG)
-     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at3.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t1.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t2.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t3.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t4.PNG)
      Debido a este error, intenté colocar dicha capa que generaba el error dentro de "quantize_scope"
-     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at4.png)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t5.png)
