@@ -165,8 +165,11 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
 ## ANÁLISIS DE RESULTADOS Y MÉTRICAS:
 - **Prueba: Se entrenó al modelo con 10 épocas sin considerar GPU.**
       *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
+  
       * **Accuracy para el problema de clasificación**: 13.19444477558136 %
+  
       * **MSE para el problema de bounding boxes**: 1816.4044189453125
+  
       * Resultados:
       * Imagen de prueba 1 con resultados:
           ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/ev_1.PNG)
