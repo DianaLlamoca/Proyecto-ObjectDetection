@@ -16,3 +16,7 @@ El proyecto consiste en desarrollar un sistema distribuido de visión computacio
 • Implementar una cola de tareas para gestionar el procesamiento de imágenes.
 
 • Optimizar la red neuronal para ejecución distribuida
+
+=======
+
+# Metodología: Explica brevemente la metodología utilizada, incluyendo el enfoque ágil y la estructura de los sprints.
