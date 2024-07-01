@@ -30,7 +30,7 @@ Las librerías que se usaron fueron las siguientes:
 - 5) Ejecutar el código haciendo uso de 'python3 *nombre_del_archivo.py*'
  
 # INFORME
-- **Informe detallado del proceso de desarrollo**:
+## **Informe detallado del proceso de desarrollo**:
   
   a) **OBTENCIÓN DE LOS DATOS: RECOPILACIÓN DE IMÁGENES**
 
@@ -92,7 +92,7 @@ Las librerías que se usaron fueron las siguientes:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
 
 
-# LAS DECISIONES TOMADAS
+## LAS DECISIONES TOMADAS
 Las decisiones, para implementar algunas técnicas de paralelismo y hacer más eficiente el entrenamiento de la red neuronal, fueron las siguientes:
 ## * Decisión 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo
   Para el sprint 2, se implementó la librería "concurrent.futures": Se implementaron técnicas de paralelismo, usando un pool de procesos, haciendo uso de 
@@ -146,7 +146,7 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
   la precisión del modelo, al haber una variación en los pesos. 
 
 
-# LOS PROBLEMAS ENCONTRADOS
+## LOS PROBLEMAS ENCONTRADOS
 • **Desafíos encontrados:**
  - Al querer implementar la **cuantización de modelos** como técnica de optimización y luego evaluar el impacto de las optimizaciones en la precisión y el tiempo 
    de procesamiento tuve dificultades en la "cuantización aware-training".
@@ -162,7 +162,7 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
    Traté de solucionarlo, pero no pude encontrar la solución. Por ese motivo, no pude lograr comparar el performance del modelo al aplicarle la cuantización.
 
 
-# ANÁLISIS DE RESULTADOS Y MÉTRICAS:
+## ANÁLISIS DE RESULTADOS Y MÉTRICAS:
 - **Prueba: Se entrenó al modelo con 10 épocas sin considerar GPU.**
       *  Se utilizaron 4 imágenes de prueba para evaluar los valores predichos por el modelo.
       * **Accuracy para el problema de clasificación**: 13.19444477558136 %
