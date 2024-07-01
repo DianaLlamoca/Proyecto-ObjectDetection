@@ -148,19 +148,19 @@ Para evaluar los datos predichos por el modelo, creé el código para generar la
   * **Resultados**
     - Imagen de prueba 1 con resultados:
   
-      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_1.PNG)
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_im1.PNG)
           
     - Imagen de prueba 2 con resultados:
           
-      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_2.PNG)
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_im2.PNG)
           
     - Imagen de prueba 3 con resultados:
           
-      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_3.PNG)
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_im3.PNG)
           
     - Imagen de prueba 4 con resultados:
           
-      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/res2_4.PNG)
+      ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/spr2_im4.PNG)
 
 # 5) ANÁLISIS Y EVALUACIÓN:
 ## Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint
