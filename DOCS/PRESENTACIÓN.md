@@ -84,7 +84,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
            ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/data2.PNG)
 
 
-            - **--** El preprocesamiento de las imágenes, como la normalización de las mismas (colocar cada píxel de la imagen en un rango de 0 a 1) se hace en la 
+            -  El preprocesamiento de las imágenes, como la normalización de las mismas (colocar cada píxel de la imagen en un rango de 0 a 1) se hace en la 
   red neuronal. Es decir, la primera 'capa' de la red se encargará de realizar la normalización:
 
            ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/Rescaling.PNG)
