@@ -58,7 +58,12 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 
 
     - Tarea 2: Recopilar y preprocesar un conjunto de datos de imágenes:
-       - Recopilación de imágenes
+       - Recopilación de imágenes:
+         - El conjunto de imágenes fue dividido en datos de *training* y *testing*:
+           - Datos de *training*: Consta de 1400 archivos. Cada imagen tiene su archivo 'xml' correspondiente, los cuales contienen la clase del objeto que está en la imagen, así como el *bounding box*. Es decir, el archivo 'xml' es el archivo que contiene toda la información de la imagen ya etiquetada. La data de training consta de 700 imágenes.
+  
+           - Datos de *testing*: Consta de 194 archivos (imágenes + xml) para evaluar el *performance* de la red neuronal luego de su entrenamiento.
+         
        - Preprocesamiento del conjunto de imágenes
     - Tarea 3: Implementar una red neuronal simple para la detección de objetos en un entorno local:
        - Creación de la arquitectura de la red neuronal
