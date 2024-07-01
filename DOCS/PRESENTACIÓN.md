@@ -23,7 +23,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
 
 =======
 
-# Metodología: Explica brevemente la metodología utilizada, incluyendo el enfoque ágil y la estructura de los sprints.
+# METODOLOGÍA: Explica brevemente la metodología utilizada, incluyendo el enfoque ágil y la estructura de los sprints.
 - Metodología ágil: La metodología ágil permitió el desarrollo incremental en cada sprint, lo cual impactó en la reducción del tiempo de entrenamiento de la red neuronal al implementar técnicas de paralelismo.
 - Estructura de los sprints:
   - Sprint 1:
@@ -43,7 +43,7 @@ La relevancia radica en el uso de técnicas de paralelismo empleadas y GPU. Esta
        
 =======
 
-## Desarrollo del proyecto: Desglosa el desarrollo del proyecto por sprints, destacando los objetivos y logros de cada sprint.
+# DESARROLLO DEL PROYECTO: Desglosa el desarrollo del proyecto por sprints, destacando los objetivos y logros de cada sprint.
 - **SPRINT 1:**
     - Tareas planificadas:
     - Tarea 1: Configurar el entorno de desarrollo
