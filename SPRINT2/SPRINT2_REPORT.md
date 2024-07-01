@@ -75,8 +75,9 @@ librería "concurrent.futures". Además, se usó "*tensorflow.distribute.Mirrore
 • **Desafíos encontrados:**
  - Al querer implementar la **cuantización de modelos** como técnica de optimización y luego evaluar el impacto de las optimizaciones en la precisión y el tiempo 
    de procesamiento tuve dificultades en la "cuantización aware-training".
-   - **Cuantización aware-training**: Esta forma de cuantización, según la documentación de TensorFlow, suele ser mejor para la precisión del modelo. Por ello, se 
-     aplicar esta forma de cuantización para posteriormente calcular el performance:
+   - **Cuantización aware-training**: Esta forma de cuantización, según la documentación de TensorFlow, suele ser mejor para la precisión del modelo. Por ello, 
+     intenté aplicar esta forma de cuantización para posteriormente calcular el performance:
+     
      • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at1.PNG)
      • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at2.PNG)
      • ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/at3.PNG)
