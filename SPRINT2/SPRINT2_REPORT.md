@@ -104,3 +104,13 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
   
 * Resultados al evaluar el modelo en la data de test con 10 épocas y con GPU:
  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t1.PNG)
+
+* **2)** Entrenamiento de la red con GPU y con 20 épocas:
+* Tiempo de entrenamiento: 77 segundos (1 minuto con 17 segundos) para 20 épocas
+
+  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t2.PNG)
+
+  El tiempo usando GPU es menor. En el primer sprint, el tiempo fue de 24 minutos para 20 épocas. Con GPU, en cambio, solo tomó 1 minuto, aproximadamente.
+
+* Resultados al evaluar el modelo en la data de test con 20 épocas y con GPU:
+  ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/gpu_t2ev.PNG)
