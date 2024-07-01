@@ -130,6 +130,12 @@ Los pasos anteriores fueron realizados mediante dos funciones:
     - Resultados de evaluar el modelo en la data de train con 20 épocas sin GPU ():
       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/20epceval.PNG)
 
+  • **Demostración de funcionalidades**
+
+    Para evaluar los datos predichos por el modelo, creé el código para generar las imágenes, con sus bounding boxes y clase predichos:
+    ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cod_ev.PNG)
+
+
 # 5) ANÁLISIS Y EVALUACIÓN:
 # *Comparación con los objetivos del Sprint: Evaluación de cómo el trabajo realizado se compara con los objetivos iniciales del sprint*
 - Tareas implementadas:
