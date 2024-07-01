@@ -125,7 +125,7 @@ Los pasos anteriores fueron realizados mediante dos funciones:
       
   - **2)** Entrenamiento de la red sin GPU y con 20 épocas:
     - **Prueba 2: 20 épocas sin GPU**:
-      - Tiempo de entrenamiento: 23 minutos para 20 épocas
+      - Tiempo de entrenamiento: 24 minutos para 20 épocas
       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/20epc.PNG)
     - Resultados de evaluar el modelo en la data de train con 20 épocas sin GPU ():
       ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/20epceval.PNG)
