@@ -91,6 +91,7 @@ Las librerías que se usaron fueron las siguientes:
 **Red neuronal**:
 ![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT1/IM%C3%81GENES/rn.PNG)
 
+
 # LAS DECISIONES TOMADAS
 Las decisiones, para implementar algunas técnicas de paralelismo y hacer más eficiente el entrenamiento de la red neuronal, fueron las siguientes:
 ## * Decisión 1: Distribuir el procesamiento de imágenes utilizando técnicas de paralelismo
@@ -133,6 +134,7 @@ Por ese motivo, se define la arquitectura de la red neuronal dentro de la declar
 
 Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas las variables del modelo a cada GPU. Luego, se usa "all-reduce" para combinar los gradientes de todos los GPU y aplica el valor combinado a todas las copias del modelo.
 
+
 ## * Decisión 3: Cuantización post-entrenamiento de la red:
 • Debido a que el modelo ha sido entrenado, se aplicarán técnicas de cuantización, pero posterior al entrenamiento.
   La cuantización, lo que va a hacer, es que el modelo va a ser reducido en tamaño, y así más apto para dispositivos que tienen menos memoria.
@@ -142,3 +144,19 @@ Esta estrategia funciona de la siguiente manera: Esencialmente, se copia todas l
   El tamaño del modelo cuantizado se redujo significativamente. El cuantizado que se usó, lo que hará es transformar todos los pesos de la red en números enteros. 
   De esta manera, se usará menos espacio en memoria, lo cual puede impactar en el tiempo de procesamiento, y así hacerlo más eficiente. Sin embargo, puede afectar 
   la precisión del modelo, al haber una variación en los pesos. 
+
+
+# LOS PROBLEMAS ENCONTRADOS
+• **Desafíos encontrados:**
+ - Al querer implementar la **cuantización de modelos** como técnica de optimización y luego evaluar el impacto de las optimizaciones en la precisión y el tiempo 
+   de procesamiento tuve dificultades en la "cuantización aware-training".
+   - **Cuantización aware-training**: Esta forma de cuantización, según la documentación de TensorFlow, suele ser mejor para la precisión del modelo. Por ello, 
+     intenté aplicar esta forma de cuantización para posteriormente calcular el performance:
+     
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t1.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t2.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t3.PNG)
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t4.PNG)
+     Debido a este error, intenté colocar dicha capa que generaba el error dentro de "quantize_scope"
+     •![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/a_t5.png)
+   Traté de solucionarlo, pero no pude encontrar la solución. Por ese motivo, no pude lograr comparar el performance del modelo al aplicarle la cuantización.
