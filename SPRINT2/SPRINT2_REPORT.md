@@ -118,7 +118,7 @@ Las GPU están diseñadas con una gran cantidad de núcleos que pueden realizar 
 • **Demostración de funcionalidades**
 
 Para evaluar los datos predichos por el modelo, creé el código para generar las imágenes, con sus bounding boxes y clase predichos:
-![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cod_ev.PNG)
+![](https://github.com/DianaLlamoca/Proyecto-ObjectDetection/blob/main/SPRINT2/IM%C3%81GENES/cod_ev.PNG) 
 
 
 
